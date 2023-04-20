@@ -1,0 +1,2167 @@
+--------------------------------------------------------------
+                       Project 2
+
+    Please type one of the options:
+        Tree - B+Tree
+        Hash - Join based on Hashing
+        Exit - Close the program
+
+--------------------------------------------------------------
+
+    Your choice: 
+tree
+root: [125411, 151327, 176643, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Dense B+Tree of order 13 has created ---
+root: [105902, 111791, 117755, 123903, 129752, 135868, 141892, 148080, 154486, 160547, 166307, 172067, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Dense B+Tree of order 24 has created ---
+root: [135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Sparse B+Tree of order 13 has created ---
+root: [119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Sparse B+Tree of order 24 has created ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+dense13
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Dense B+Tree of order 13 ---
+--- key: 137800
+[125411, 151327, 176643, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[127192, 128874, 130731, 132474, 134376, 136265, 138237, 140038, 141760, 143545, 145481, 147394, 149246]
+Location: 6
+[136383, 136563, 136739, 136885, 136972, 137069, 137161, 137343, 137499, 137631, 137734, 137942, 138071]
+Location: 11
+[137734, 137763, 137787, 137838, 137848, 137861, 137866, 137893, 137909, 137916, 137927, 137930, 137941]
+--- Above node is a leaf ---
+Before: [137734, 137763, 137787, 137838, 137848, 137861, 137866, 137893, 137909, 137916, 137927, 137930, 137941]
+After: [137734, 137763, 137787, 137800, 137838, 137848, 137861, 0, 0, 0, 0, 0, 0]
+       [137866, 137893, 137909, 137916, 137927, 137930, 137941, 0, 0, 0, 0, 0, 0]
+Before: [136383, 136563, 136739, 136885, 136972, 137069, 137161, 137343, 137499, 137631, 137734, 137942, 138071]
+After: [136383, 136563, 136739, 136885, 136972, 137069, 137161, 0, 0, 0, 0, 0, 0]
+       [137343, 137499, 137631, 137734, 137866, 137942, 138071, 0, 0, 0, 0, 0, 0]
+Before: [127192, 128874, 130731, 132474, 134376, 136265, 138237, 140038, 141760, 143545, 145481, 147394, 149246]
+After: [127192, 128874, 130731, 132474, 134376, 136265, 137343, 0, 0, 0, 0, 0, 0]
+       [138237, 140038, 141760, 143545, 145481, 147394, 149246, 0, 0, 0, 0, 0, 0]
+Before: [125411, 151327, 176643, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+After: [125411, 138237, 151327, 176643, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Dense B+Tree of order 13 ---
+--- key: 119683
+[125411, 138237, 151327, 176643, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 0
+[101903, 103531, 105436, 107025, 108858, 110612, 112585, 114429, 116227, 118028, 119766, 121804, 123512]
+Location: 10
+[118100, 118222, 118332, 118479, 118671, 118803, 118917, 119011, 119129, 119238, 119377, 119494, 119605]
+Location: 13
+[119605, 119608, 119618, 119647, 119648, 119651, 119653, 119687, 119689, 119702, 119725, 119752, 119762]
+--- Above node is a leaf ---
+Before: [119605, 119608, 119618, 119647, 119648, 119651, 119653, 119687, 119689, 119702, 119725, 119752, 119762]
+After: [119605, 119608, 119618, 119647, 119648, 119651, 119653, 0, 0, 0, 0, 0, 0]
+       [119683, 119687, 119689, 119702, 119725, 119752, 119762, 0, 0, 0, 0, 0, 0]
+Before: [118100, 118222, 118332, 118479, 118671, 118803, 118917, 119011, 119129, 119238, 119377, 119494, 119605]
+After: [118100, 118222, 118332, 118479, 118671, 118803, 118917, 0, 0, 0, 0, 0, 0]
+       [119011, 119129, 119238, 119377, 119494, 119605, 119683, 0, 0, 0, 0, 0, 0]
+Before: [101903, 103531, 105436, 107025, 108858, 110612, 112585, 114429, 116227, 118028, 119766, 121804, 123512]
+After: [101903, 103531, 105436, 107025, 108858, 110612, 112585, 0, 0, 0, 0, 0, 0]
+       [114429, 116227, 118028, 119011, 119766, 121804, 123512, 0, 0, 0, 0, 0, 0]
+Before: [125411, 138237, 151327, 176643, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+After: [114429, 125411, 138237, 151327, 176643, 0, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+dense24
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Dense B+Tree of order 24 ---
+--- key: 166065
+[105902, 111791, 117755, 123903, 129752, 135868, 141892, 148080, 154486, 160547, 166307, 172067, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 10
+[160787, 160919, 161107, 161347, 161535, 161753, 161965, 162148, 162366, 162516, 162779, 163040, 163313, 163495, 163732, 164009, 164245, 164565, 164809, 165046, 165389, 165609, 165827, 166049]
+Location: 24
+[166049, 166063, 166081, 166084, 166095, 166142, 166148, 166151, 166155, 166160, 166161, 166176, 166182, 166187, 166189, 166202, 166205, 166210, 166264, 166271, 166275, 166294, 166296, 166299]
+--- Above node is a leaf ---
+Before: [166049, 166063, 166081, 166084, 166095, 166142, 166148, 166151, 166155, 166160, 166161, 166176, 166182, 166187, 166189, 166202, 166205, 166210, 166264, 166271, 166275, 166294, 166296, 166299]
+After: [166049, 166063, 166065, 166081, 166084, 166095, 166142, 166148, 166151, 166155, 166160, 166161, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+       [166176, 166182, 166187, 166189, 166202, 166205, 166210, 166264, 166271, 166275, 166294, 166296, 166299, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Before: [160787, 160919, 161107, 161347, 161535, 161753, 161965, 162148, 162366, 162516, 162779, 163040, 163313, 163495, 163732, 164009, 164245, 164565, 164809, 165046, 165389, 165609, 165827, 166049]
+After: [160787, 160919, 161107, 161347, 161535, 161753, 161965, 162148, 162366, 162516, 162779, 163040, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+       [163313, 163495, 163732, 164009, 164245, 164565, 164809, 165046, 165389, 165609, 165827, 166049, 166176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Before: [105902, 111791, 117755, 123903, 129752, 135868, 141892, 148080, 154486, 160547, 166307, 172067, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0, 0, 0, 0]
+After: [105902, 111791, 117755, 123903, 129752, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Dense B+Tree of order 24 ---
+--- key: 177334
+[105902, 111791, 117755, 123903, 129752, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0, 0, 0]
+Location: 13
+[172316, 172548, 172794, 173080, 173388, 173579, 173835, 174072, 174235, 174510, 174810, 175076, 175317, 175563, 175723, 175990, 176233, 176484, 176745, 177044, 177265, 177494, 177707, 178032]
+Location: 21
+[177265, 177296, 177317, 177323, 177362, 177365, 177369, 177377, 177385, 177391, 177399, 177403, 177410, 177414, 177429, 177430, 177454, 177456, 177462, 177468, 177472, 177487, 177488, 177491]
+--- Above node is a leaf ---
+Before: [177265, 177296, 177317, 177323, 177362, 177365, 177369, 177377, 177385, 177391, 177399, 177403, 177410, 177414, 177429, 177430, 177454, 177456, 177462, 177468, 177472, 177487, 177488, 177491]
+After: [177265, 177296, 177317, 177323, 177334, 177362, 177365, 177369, 177377, 177385, 177391, 177399, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+       [177403, 177410, 177414, 177429, 177430, 177454, 177456, 177462, 177468, 177472, 177487, 177488, 177491, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Before: [172316, 172548, 172794, 173080, 173388, 173579, 173835, 174072, 174235, 174510, 174810, 175076, 175317, 175563, 175723, 175990, 176233, 176484, 176745, 177044, 177265, 177494, 177707, 178032]
+After: [172316, 172548, 172794, 173080, 173388, 173579, 173835, 174072, 174235, 174510, 174810, 175076, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+       [175317, 175563, 175723, 175990, 176233, 176484, 176745, 177044, 177265, 177403, 177494, 177707, 178032, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Before: [105902, 111791, 117755, 123903, 129752, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0, 0, 0]
+After: [105902, 111791, 117755, 123903, 129752, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+sparse13
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Sparse B+Tree of order 13 ---
+--- key: 197195
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 2
+[176314, 180753, 185063, 189565, 194041, 198582, 0, 0, 0, 0, 0, 0, 0]
+Location: 5
+[194516, 195073, 195609, 196077, 196578, 197363, 197933, 198582, 0, 0, 0, 0, 0]
+Location: 5
+[196658, 196803, 196836, 196892, 196970, 197130, 197290, 197363, 0, 0, 0, 0, 0]
+Location: 6
+[197130, 197137, 197170, 197185, 197244, 197265, 197271, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Sparse B+Tree of order 13 ---
+--- key: 115622
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 0
+[104453, 108705, 113255, 117704, 122286, 126867, 131132, 135617, 0, 0, 0, 0, 0]
+Location: 3
+[113764, 114429, 115095, 115671, 116092, 116609, 117206, 117704, 0, 0, 0, 0, 0]
+Location: 3
+[115141, 115216, 115323, 115393, 115500, 115579, 115631, 115671, 0, 0, 0, 0, 0]
+Location: 6
+[115579, 115581, 115596, 115598, 115613, 115614, 115617, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+sparse24
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Sparse B+Tree of order 24 ---
+--- key: 163833
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 3
+[162516, 164136, 165827, 167349, 168846, 170373, 171874, 173446, 175076, 176643, 178237, 179656, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[162597, 162779, 162914, 163040, 163231, 163313, 163389, 163495, 163622, 163732, 163878, 164009, 164136, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 10
+[163732, 163739, 163741, 163788, 163791, 163802, 163808, 163815, 163816, 163854, 163862, 163876, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Sparse B+Tree of order 24 ---
+--- key: 115857
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 0
+[101635, 103060, 104680, 106077, 107501, 109118, 110612, 112278, 113832, 115617, 116919, 118479, 119960, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 10
+[115710, 115794, 115841, 115924, 115996, 116126, 116308, 116398, 116509, 116609, 116728, 116825, 116919, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 3
+[115841, 115856, 115859, 115860, 115878, 115879, 115890, 115897, 115902, 115904, 115912, 115921, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+dense13
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Dense B+Tree of order 13 ---
+--- key: 157609
+[114429, 125411, 138237, 151327, 176643, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 4
+[153272, 155145, 157083, 158824, 160617, 162109, 163862, 165827, 167637, 169372, 171146, 172896, 174790]
+Location: 3
+[157207, 157318, 157392, 157484, 157648, 157766, 157844, 157966, 158098, 158268, 158443, 158560, 158658]
+Location: 4
+[157484, 157511, 157523, 157564, 157566, 157574, 157580, 157584, 157585, 157593, 157598, 157615, 157618]
+--- Above node is a leaf ---
+Before: [157484, 157511, 157523, 157564, 157566, 157574, 157580, 157584, 157585, 157593, 157598, 157615, 157618]
+After: [157484, 157511, 157523, 157564, 157566, 157574, 157580, 0, 0, 0, 0, 0, 0]
+       [157584, 157585, 157593, 157598, 157609, 157615, 157618, 0, 0, 0, 0, 0, 0]
+Before: [157207, 157318, 157392, 157484, 157648, 157766, 157844, 157966, 158098, 158268, 158443, 158560, 158658]
+After: [157207, 157318, 157392, 157484, 157584, 157648, 157766, 0, 0, 0, 0, 0, 0]
+       [157844, 157966, 158098, 158268, 158443, 158560, 158658, 0, 0, 0, 0, 0, 0]
+Before: [153272, 155145, 157083, 158824, 160617, 162109, 163862, 165827, 167637, 169372, 171146, 172896, 174790]
+After: [153272, 155145, 157083, 157844, 158824, 160617, 162109, 0, 0, 0, 0, 0, 0]
+       [163862, 165827, 167637, 169372, 171146, 172896, 174790, 0, 0, 0, 0, 0, 0]
+Before: [114429, 125411, 138237, 151327, 176643, 0, 0, 0, 0, 0, 0, 0, 0]
+After: [114429, 125411, 138237, 151327, 163862, 176643, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Dense B+Tree of order 13 ---
+--- key: 122773
+[114429, 125411, 138237, 151327, 163862, 176643, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[114429, 116227, 118028, 119011, 119766, 121804, 123512, 0, 0, 0, 0, 0, 0]
+Location: 6
+[121913, 122023, 122173, 122273, 122384, 122456, 122574, 122735, 122863, 122994, 123077, 123239, 123385]
+Location: 8
+[122735, 122755, 122771, 122783, 122788, 122800, 122808, 122817, 122824, 122827, 122837, 122844, 122859]
+--- Above node is a leaf ---
+Before: [122735, 122755, 122771, 122783, 122788, 122800, 122808, 122817, 122824, 122827, 122837, 122844, 122859]
+After: [122735, 122755, 122771, 122773, 122783, 122788, 122800, 0, 0, 0, 0, 0, 0]
+       [122808, 122817, 122824, 122827, 122837, 122844, 122859, 0, 0, 0, 0, 0, 0]
+Before: [121913, 122023, 122173, 122273, 122384, 122456, 122574, 122735, 122863, 122994, 123077, 123239, 123385]
+After: [121913, 122023, 122173, 122273, 122384, 122456, 122574, 0, 0, 0, 0, 0, 0]
+       [122735, 122808, 122863, 122994, 123077, 123239, 123385, 0, 0, 0, 0, 0, 0]
+Before: [114429, 116227, 118028, 119011, 119766, 121804, 123512, 0, 0, 0, 0, 0, 0]
+After: [114429, 116227, 118028, 119011, 119766, 121804, 122735, 123512, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Dense B+Tree of order 13 ---
+--- key: 173729
+[114429, 125411, 138237, 151327, 163862, 176643, 0, 0, 0, 0, 0, 0, 0]
+Location: 5
+[163862, 165827, 167637, 169372, 171146, 172896, 174790, 0, 0, 0, 0, 0, 0]
+Location: 6
+[173015, 173205, 173372, 173446, 173583, 173777, 173879, 174001, 174103, 174199, 174292, 174454, 174615]
+Location: 5
+[173583, 173586, 173596, 173608, 173620, 173622, 173646, 173647, 173667, 173717, 173742, 173753, 173755]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Dense B+Tree of order 13 ---
+--- key: 179538
+[114429, 125411, 138237, 151327, 163862, 176643, 0, 0, 0, 0, 0, 0, 0]
+Location: 6
+[178422, 180184, 181933, 183721, 185451, 187314, 189223, 191002, 192674, 194516, 196215, 198285, 0]
+Location: 1
+[178564, 178733, 178812, 178914, 179021, 179178, 179270, 179415, 179507, 179656, 179781, 179922, 180068]
+Location: 9
+[179507, 179532, 179534, 179552, 179557, 179558, 179567, 179577, 179578, 179590, 179627, 179628, 179651]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Dense B+Tree of order 13 ---
+--- key: 160961
+[114429, 125411, 138237, 151327, 163862, 176643, 0, 0, 0, 0, 0, 0, 0]
+Location: 4
+[153272, 155145, 157083, 158824, 160617, 162109, 163862, 165827, 167637, 169372, 171146, 172896, 174790]
+Location: 5
+[160754, 160842, 160905, 161027, 161093, 161224, 161355, 161459, 161557, 161716, 161785, 161923, 162022]
+Location: 3
+[160905, 160909, 160915, 160919, 160974, 160977, 160981, 160984, 160985, 160990, 160996, 161018, 161023]
+--- Above node is a leaf ---
+Before: [160905, 160909, 160915, 160919, 160974, 160977, 160981, 160984, 160985, 160990, 160996, 161018, 161023]
+After: [160905, 160909, 160915, 160919, 160961, 160974, 160977, 0, 0, 0, 0, 0, 0]
+       [160981, 160984, 160985, 160990, 160996, 161018, 161023, 0, 0, 0, 0, 0, 0]
+Before: [160754, 160842, 160905, 161027, 161093, 161224, 161355, 161459, 161557, 161716, 161785, 161923, 162022]
+After: [160754, 160842, 160905, 160981, 161027, 161093, 161224, 0, 0, 0, 0, 0, 0]
+       [161355, 161459, 161557, 161716, 161785, 161923, 162022, 0, 0, 0, 0, 0, 0]
+Before: [153272, 155145, 157083, 158824, 160617, 162109, 163862, 165827, 167637, 169372, 171146, 172896, 174790]
+After: [153272, 155145, 157083, 158824, 160617, 161355, 162109, 0, 0, 0, 0, 0, 0]
+       [163862, 165827, 167637, 169372, 171146, 172896, 174790, 0, 0, 0, 0, 0, 0]
+Before: [114429, 125411, 138237, 151327, 163862, 176643, 0, 0, 0, 0, 0, 0, 0]
+After: [114429, 125411, 138237, 151327, 163862, 163862, 176643, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+dense24
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Dense B+Tree of order 24 ---
+--- key: 131455
+[105902, 111791, 117755, 123903, 129752, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0, 0]
+Location: 5
+[130076, 130253, 130534, 130744, 130974, 131186, 131383, 131593, 131887, 132100, 132320, 132643, 132934, 133213, 133441, 133728, 133906, 134084, 134353, 134597, 134841, 135078, 135309, 135518]
+Location: 7
+[131383, 131394, 131395, 131408, 131413, 131428, 131442, 131445, 131446, 131453, 131455, 131474, 131487, 131497, 131500, 131502, 131513, 131525, 131533, 131534, 131543, 131544, 131567, 131586]
+--- Above node is a leaf ---
+Before: [131383, 131394, 131395, 131408, 131413, 131428, 131442, 131445, 131446, 131453, 131455, 131474, 131487, 131497, 131500, 131502, 131513, 131525, 131533, 131534, 131543, 131544, 131567, 131586]
+After: [131383, 131394, 131395, 131408, 131413, 131428, 131442, 131445, 131446, 131453, 131455, 131455, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+       [131474, 131487, 131497, 131500, 131502, 131513, 131525, 131533, 131534, 131543, 131544, 131567, 131586, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Before: [130076, 130253, 130534, 130744, 130974, 131186, 131383, 131593, 131887, 132100, 132320, 132643, 132934, 133213, 133441, 133728, 133906, 134084, 134353, 134597, 134841, 135078, 135309, 135518]
+After: [130076, 130253, 130534, 130744, 130974, 131186, 131383, 131474, 131593, 131887, 132100, 132320, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+       [132643, 132934, 133213, 133441, 133728, 133906, 134084, 134353, 134597, 134841, 135078, 135309, 135518, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Before: [105902, 111791, 117755, 123903, 129752, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0, 0]
+After: [105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Dense B+Tree of order 24 ---
+--- key: 199381
+[105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+Location: 19
+[195988, 196249, 196418, 196692, 196924, 197363, 197575, 197849, 198139, 198383, 198665, 198886, 199107, 199306, 199649, 199849, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 14
+[199306, 199310, 199332, 199335, 199361, 199379, 199391, 199409, 199424, 199441, 199450, 199451, 199487, 199497, 199511, 199518, 199536, 199538, 199544, 199550, 199551, 199582, 199615, 199635]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Dense B+Tree of order 24 ---
+--- key: 185100
+[105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+Location: 17
+[184229, 184429, 184693, 184935, 185131, 185360, 185653, 185907, 186115, 186366, 186614, 186886, 187097, 187314, 187598, 187869, 188108, 188455, 188688, 188922, 189125, 189289, 189489, 189694]
+Location: 4
+[184935, 184936, 184949, 184954, 184965, 184967, 184988, 184993, 184996, 185014, 185028, 185029, 185045, 185047, 185049, 185062, 185063, 185065, 185068, 185071, 185090, 185094, 185114, 185124]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Dense B+Tree of order 24 ---
+--- key: 134243
+[105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+Location: 6
+[132643, 132934, 133213, 133441, 133728, 133906, 134084, 134353, 134597, 134841, 135078, 135309, 135518, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 7
+[134084, 134091, 134105, 134123, 134137, 134152, 134153, 134155, 134164, 134192, 134193, 134199, 134203, 134213, 134224, 134230, 134247, 134288, 134306, 134307, 134308, 134313, 134322, 134333]
+--- Above node is a leaf ---
+Before: [134084, 134091, 134105, 134123, 134137, 134152, 134153, 134155, 134164, 134192, 134193, 134199, 134203, 134213, 134224, 134230, 134247, 134288, 134306, 134307, 134308, 134313, 134322, 134333]
+After: [134084, 134091, 134105, 134123, 134137, 134152, 134153, 134155, 134164, 134192, 134193, 134199, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+       [134203, 134213, 134224, 134230, 134243, 134247, 134288, 134306, 134307, 134308, 134313, 134322, 134333, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Before: [132643, 132934, 133213, 133441, 133728, 133906, 134084, 134353, 134597, 134841, 135078, 135309, 135518, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+After: [132643, 132934, 133213, 133441, 133728, 133906, 134084, 134203, 134353, 134597, 134841, 135078, 135309, 135518, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Dense B+Tree of order 24 ---
+--- key: 191877
+[105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+Location: 18
+[190202, 190469, 190777, 190967, 191161, 191401, 191599, 191812, 192031, 192212, 192406, 192772, 193025, 193296, 193513, 193726, 194041, 194262, 194444, 194668, 194895, 195169, 195397, 195609]
+Location: 8
+[191812, 191830, 191840, 191851, 191870, 191871, 191879, 191908, 191911, 191912, 191922, 191925, 191929, 191941, 191955, 191957, 191960, 191966, 191968, 191970, 191973, 191979, 192024, 192027]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+sparse13
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Sparse B+Tree of order 13 ---
+--- key: 117076
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 0
+[104453, 108705, 113255, 117704, 122286, 126867, 131132, 135617, 0, 0, 0, 0, 0]
+Location: 3
+[113764, 114429, 115095, 115671, 116092, 116609, 117206, 117704, 0, 0, 0, 0, 0]
+Location: 6
+[116677, 116762, 116798, 116874, 116913, 117060, 117146, 117206, 0, 0, 0, 0, 0]
+Location: 6
+[117060, 117066, 117073, 117076, 117127, 117128, 117137, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+Before: [117060, 117066, 117073, 117076, 117127, 117128, 117137, 0, 0, 0, 0, 0, 0]
+After: [117060, 117066, 117073, 117076, 117076, 117127, 117128, 117137, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Sparse B+Tree of order 13 ---
+--- key: 139167
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[140269, 144661, 149418, 154177, 158824, 162907, 167495, 171809, 0, 0, 0, 0, 0]
+Location: 0
+[136265, 136907, 137453, 138041, 138557, 139146, 139723, 140269, 0, 0, 0, 0, 0]
+Location: 6
+[139219, 139308, 139377, 139435, 139533, 139625, 139656, 139723, 0, 0, 0, 0, 0]
+Location: 0
+[139146, 139148, 139149, 139164, 139167, 139198, 139205, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+Before: [139146, 139148, 139149, 139164, 139167, 139198, 139205, 0, 0, 0, 0, 0, 0]
+After: [139146, 139148, 139149, 139164, 139167, 139167, 139198, 139205, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Sparse B+Tree of order 13 ---
+--- key: 154340
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[140269, 144661, 149418, 154177, 158824, 162907, 167495, 171809, 0, 0, 0, 0, 0]
+Location: 4
+[154861, 155479, 155943, 156627, 157212, 157686, 158241, 158824, 0, 0, 0, 0, 0]
+Location: 0
+[154257, 154320, 154372, 154520, 154660, 154749, 154797, 154861, 0, 0, 0, 0, 0]
+Location: 2
+[154320, 154325, 154328, 154348, 154358, 154361, 154365, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Sparse B+Tree of order 13 ---
+--- key: 171744
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[140269, 144661, 149418, 154177, 158824, 162907, 167495, 171809, 0, 0, 0, 0, 0]
+Location: 7
+[168070, 168607, 169068, 169653, 170202, 170670, 171280, 171809, 0, 0, 0, 0, 0]
+Location: 7
+[171346, 171398, 171446, 171487, 171555, 171658, 171755, 171809, 0, 0, 0, 0, 0]
+Location: 6
+[171658, 171662, 171678, 171685, 171715, 171729, 171734, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Sparse B+Tree of order 13 ---
+--- key: 110608
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 0
+[104453, 108705, 113255, 117704, 122286, 126867, 131132, 135617, 0, 0, 0, 0, 0]
+Location: 2
+[109229, 109822, 110301, 110937, 111549, 112145, 112733, 113255, 0, 0, 0, 0, 0]
+Location: 3
+[110430, 110473, 110558, 110612, 110674, 110764, 110813, 110937, 0, 0, 0, 0, 0]
+Location: 3
+[110558, 110567, 110573, 110584, 110589, 110595, 110609, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+sparse24
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Sparse B+Tree of order 24 ---
+--- key: 152760
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 2
+[142032, 143545, 145114, 146884, 148408, 150106, 151839, 153524, 155145, 156833, 158268, 159775, 161224, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 7
+[151987, 152086, 152217, 152343, 152480, 152607, 152808, 152945, 153070, 153211, 153282, 153403, 153524, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 6
+[152607, 152610, 152630, 152643, 152651, 152682, 152693, 152695, 152727, 152772, 152789, 152800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+Before: [152607, 152610, 152630, 152643, 152651, 152682, 152693, 152695, 152727, 152772, 152789, 152800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+After: [152607, 152610, 152630, 152643, 152651, 152682, 152693, 152695, 152727, 152760, 152772, 152789, 152800, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Sparse B+Tree of order 24 ---
+--- key: 139778
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[121804, 123239, 124786, 126448, 127926, 129400, 130974, 132474, 134084, 135716, 137343, 138942, 140474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 12
+[139015, 139167, 139330, 139435, 139611, 139676, 139826, 139940, 140082, 140196, 140269, 140375, 140474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 6
+[139676, 139679, 139690, 139721, 139723, 139725, 139742, 139756, 139757, 139771, 139792, 139801, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+insertion
+
+--- Insert in Sparse B+Tree of order 24 ---
+--- key: 125825
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[121804, 123239, 124786, 126448, 127926, 129400, 130974, 132474, 134084, 135716, 137343, 138942, 140474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 3
+[124942, 125086, 125221, 125383, 125498, 125565, 125765, 125865, 125954, 126045, 126192, 126363, 126448, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 7
+[125765, 125780, 125800, 125810, 125816, 125820, 125822, 125825, 125826, 125841, 125843, 125852, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+Before: [125765, 125780, 125800, 125810, 125816, 125820, 125822, 125825, 125826, 125841, 125843, 125852, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+After: [125765, 125780, 125800, 125810, 125816, 125820, 125822, 125825, 125825, 125826, 125841, 125843, 125852, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Sparse B+Tree of order 24 ---
+--- key: 186248
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 4
+[182709, 184229, 185782, 187314, 189004, 190469, 191929, 193513, 195003, 196418, 198285, 199487, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 3
+[185907, 186004, 186115, 186233, 186366, 186464, 186614, 186797, 186886, 186984, 187097, 187236, 187314, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 4
+[186233, 186241, 186249, 186258, 186280, 186292, 186295, 186302, 186324, 186329, 186336, 186362, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+deletion
+
+--- Delete in Sparse B+Tree of order 24 ---
+--- key: 135966
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[121804, 123239, 124786, 126448, 127926, 129400, 130974, 132474, 134084, 135716, 137343, 138942, 140474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 10
+[135868, 135981, 136083, 136220, 136352, 136513, 136656, 136778, 136907, 136987, 137101, 137162, 137343, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[135868, 135887, 135894, 135898, 135922, 135924, 135936, 135941, 135944, 135958, 135970, 135980, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+dense13
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Dense B+Tree of order 13 ---
+--- key: 177033
+[114429, 125411, 138237, 151327, 163862, 163862, 176643, 0, 0, 0, 0, 0, 0]
+Location: 7
+[178422, 180184, 181933, 183721, 185451, 187314, 189223, 191002, 192674, 194516, 196215, 198285, 0]
+Location: 0
+[176747, 176912, 177077, 177190, 177365, 177462, 177547, 177681, 177832, 177984, 178152, 178237, 178295]
+Location: 2
+[176912, 176919, 176930, 176936, 176940, 176947, 176988, 176989, 176999, 177016, 177044, 177048, 177050]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Dense B+Tree of order 13 ---
+--- key: 174204
+[114429, 125411, 138237, 151327, 163862, 163862, 176643, 0, 0, 0, 0, 0, 0]
+Location: 6
+[163862, 165827, 167637, 169372, 171146, 172896, 174790, 0, 0, 0, 0, 0, 0]
+Location: 6
+[173015, 173205, 173372, 173446, 173583, 173777, 173879, 174001, 174103, 174199, 174292, 174454, 174615]
+Location: 10
+[174199, 174201, 174207, 174229, 174232, 174234, 174235, 174248, 174251, 174257, 174268, 174282, 174286]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Dense B+Tree of order 13 ---
+--- key: 119601
+[114429, 125411, 138237, 151327, 163862, 163862, 176643, 0, 0, 0, 0, 0, 0]
+Location: 1
+[114429, 116227, 118028, 119011, 119766, 121804, 122735, 123512, 0, 0, 0, 0, 0]
+Location: 4
+[119011, 119129, 119238, 119377, 119494, 119605, 119683, 0, 0, 0, 0, 0, 0]
+Location: 5
+[119494, 119508, 119521, 119527, 119531, 119547, 119555, 119556, 119561, 119579, 119598, 119603, 119604]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Dense B+Tree of order 13 ---
+--- key: 171658
+[114429, 125411, 138237, 151327, 163862, 163862, 176643, 0, 0, 0, 0, 0, 0]
+Location: 6
+[163862, 165827, 167637, 169372, 171146, 172896, 174790, 0, 0, 0, 0, 0, 0]
+Location: 5
+[171273, 171391, 171463, 171594, 171767, 171874, 171976, 172090, 172204, 172332, 172444, 172614, 172702]
+Location: 4
+[171594, 171616, 171625, 171646, 171658, 171662, 171678, 171685, 171715, 171729, 171734, 171755, 171757]
+--- Above node is a leaf ---
+There is a key at 4
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Dense B+Tree of order 13 ---
+--- key: 176185
+[114429, 125411, 138237, 151327, 163862, 163862, 176643, 0, 0, 0, 0, 0, 0]
+Location: 6
+[163862, 165827, 167637, 169372, 171146, 172896, 174790, 0, 0, 0, 0, 0, 0]
+Location: 7
+[174906, 175076, 175227, 175328, 175481, 175583, 175674, 175778, 175963, 176080, 176221, 176328, 176470]
+Location: 10
+[176080, 176085, 176095, 176103, 176125, 176131, 176152, 176162, 176170, 176173, 176185, 176187, 176205]
+--- Above node is a leaf ---
+There is a key at 10
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+dense24
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Dense B+Tree of order 24 ---
+--- key: 138921
+[105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+Location: 7
+[136083, 136352, 136656, 136907, 137101, 137343, 137617, 137916, 138134, 138397, 138557, 138847, 139015, 139330, 139611, 139826, 140082, 140269, 140474, 140699, 140943, 141233, 141467, 141688]
+Location: 12
+[138847, 138852, 138854, 138858, 138873, 138876, 138882, 138888, 138910, 138915, 138917, 138939, 138942, 138943, 138944, 138945, 138948, 138950, 138959, 138964, 138968, 138999, 139002, 139005]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Dense B+Tree of order 24 ---
+--- key: 106257
+[105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+Location: 1
+[106077, 106242, 106454, 106702, 106937, 107164, 107395, 107591, 107856, 108112, 108305, 108631, 108886, 109118, 109291, 109458, 109822, 110081, 110238, 110485, 110734, 111052, 111251, 111549]
+Location: 2
+[106242, 106248, 106276, 106277, 106278, 106294, 106298, 106301, 106316, 106320, 106329, 106376, 106380, 106383, 106385, 106395, 106401, 106402, 106430, 106435, 106440, 106443, 106450, 106452]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Dense B+Tree of order 24 ---
+--- key: 190773
+[105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+Location: 18
+[190202, 190469, 190777, 190967, 191161, 191401, 191599, 191812, 192031, 192212, 192406, 192772, 193025, 193296, 193513, 193726, 194041, 194262, 194444, 194668, 194895, 195169, 195397, 195609]
+Location: 2
+[190469, 190473, 190502, 190510, 190520, 190527, 190541, 190555, 190557, 190561, 190565, 190575, 190589, 190601, 190610, 190630, 190641, 190666, 190674, 190722, 190723, 190726, 190756, 190772]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Dense B+Tree of order 24 ---
+--- key: 180941
+[105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+Location: 16
+[178397, 178649, 178878, 179063, 179303, 179532, 179780, 180060, 180302, 180520, 180753, 181017, 181254, 181451, 181602, 181845, 182148, 182407, 182610, 182827, 183036, 183309, 183539, 183782]
+Location: 11
+[180753, 180765, 180777, 180778, 180779, 180792, 180801, 180803, 180807, 180808, 180822, 180835, 180839, 180880, 180887, 180900, 180903, 180942, 180943, 180950, 180958, 180998, 181008, 181014]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Dense B+Tree of order 24 ---
+--- key: 161726
+[105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+Location: 11
+[160787, 160919, 161107, 161347, 161535, 161753, 161965, 162148, 162366, 162516, 162779, 163040, 163313, 163495, 163732, 164009, 164245, 164565, 164809, 165046, 165389, 165609, 165827, 166049]
+Location: 5
+[161535, 161537, 161544, 161557, 161565, 161566, 161574, 161587, 161599, 161601, 161606, 161618, 161663, 161669, 161678, 161694, 161716, 161717, 161729, 161733, 161738, 161744, 161746, 161752]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+sparse13
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Sparse B+Tree of order 13 ---
+--- key: 185735
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 2
+[176314, 180753, 185063, 189565, 194041, 198582, 0, 0, 0, 0, 0, 0, 0]
+Location: 3
+[185653, 186198, 186832, 187314, 187935, 188610, 189125, 189565, 0, 0, 0, 0, 0]
+Location: 1
+[185747, 185794, 185852, 185938, 186003, 186064, 186118, 186198, 0, 0, 0, 0, 0]
+Location: 0
+[185653, 185658, 185706, 185720, 185721, 185735, 185738, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is a key at 5
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Sparse B+Tree of order 13 ---
+--- key: 188383
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 2
+[176314, 180753, 185063, 189565, 194041, 198582, 0, 0, 0, 0, 0, 0, 0]
+Location: 3
+[185653, 186198, 186832, 187314, 187935, 188610, 189125, 189565, 0, 0, 0, 0, 0]
+Location: 5
+[187997, 188060, 188160, 188251, 188366, 188489, 188570, 188610, 0, 0, 0, 0, 0]
+Location: 5
+[188366, 188370, 188393, 188428, 188439, 188455, 188461, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Sparse B+Tree of order 13 ---
+--- key: 128935
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 0
+[104453, 108705, 113255, 117704, 122286, 126867, 131132, 135617, 0, 0, 0, 0, 0]
+Location: 6
+[127324, 127885, 128380, 128874, 129448, 130076, 130642, 131132, 0, 0, 0, 0, 0]
+Location: 4
+[128967, 129001, 129036, 129112, 129180, 129257, 129348, 129448, 0, 0, 0, 0, 0]
+Location: 0
+[128874, 128883, 128885, 128913, 128921, 128926, 128946, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Sparse B+Tree of order 13 ---
+--- key: 186818
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 2
+[176314, 180753, 185063, 189565, 194041, 198582, 0, 0, 0, 0, 0, 0, 0]
+Location: 3
+[185653, 186198, 186832, 187314, 187935, 188610, 189125, 189565, 0, 0, 0, 0, 0]
+Location: 2
+[186258, 186336, 186410, 186464, 186555, 186638, 186720, 186832, 0, 0, 0, 0, 0]
+Location: 7
+[186720, 186722, 186752, 186797, 186808, 186810, 186819, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Sparse B+Tree of order 13 ---
+--- key: 162874
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[140269, 144661, 149418, 154177, 158824, 162907, 167495, 171809, 0, 0, 0, 0, 0]
+Location: 5
+[159294, 159868, 160438, 160919, 161398, 161894, 162366, 162907, 0, 0, 0, 0, 0]
+Location: 7
+[162388, 162448, 162497, 162543, 162590, 162686, 162791, 162907, 0, 0, 0, 0, 0]
+Location: 7
+[162791, 162804, 162837, 162855, 162857, 162896, 162904, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+sparse24
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Sparse B+Tree of order 24 ---
+--- key: 121103
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[121804, 123239, 124786, 126448, 127926, 129400, 130974, 132474, 134084, 135716, 137343, 138942, 140474, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 0
+[120059, 120225, 120357, 120560, 120674, 120794, 120910, 121133, 121292, 121371, 121535, 121688, 121804, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 7
+[120910, 120959, 120975, 120988, 121007, 121014, 121039, 121054, 121055, 121086, 121089, 121101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Sparse B+Tree of order 24 ---
+--- key: 159918
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 2
+[142032, 143545, 145114, 146884, 148408, 150106, 151839, 153524, 155145, 156833, 158268, 159775, 161224, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 12
+[159920, 160047, 160181, 160267, 160363, 160547, 160700, 160787, 160866, 160919, 161044, 161107, 161224, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 0
+[159775, 159785, 159787, 159792, 159803, 159825, 159841, 159857, 159868, 159873, 159878, 159886, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Sparse B+Tree of order 24 ---
+--- key: 142324
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 2
+[142032, 143545, 145114, 146884, 148408, 150106, 151839, 153524, 155145, 156833, 158268, 159775, 161224, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[142090, 142190, 142275, 142366, 142493, 142570, 142706, 142812, 142927, 143039, 143208, 143409, 143545, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 3
+[142275, 142278, 142303, 142304, 142307, 142310, 142319, 142328, 142330, 142344, 142346, 142357, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Sparse B+Tree of order 24 ---
+--- key: 173650
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 3
+[162516, 164136, 165827, 167349, 168846, 170373, 171874, 173446, 175076, 176643, 178237, 179656, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 8
+[173579, 173753, 173835, 173974, 174072, 174158, 174235, 174374, 174510, 174622, 174810, 174910, 175076, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[173579, 173583, 173586, 173596, 173608, 173620, 173622, 173646, 173647, 173667, 173717, 173742, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is no such key
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+search
+
+--- Search in Sparse B+Tree of order 24 ---
+--- key: 175443
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 3
+[162516, 164136, 165827, 167349, 168846, 170373, 171874, 173446, 175076, 176643, 178237, 179656, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 9
+[175213, 175317, 175464, 175563, 175621, 175723, 175828, 175990, 176125, 176233, 176349, 176484, 176643, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 2
+[175317, 175327, 175328, 175335, 175349, 175353, 175399, 175418, 175422, 175424, 175443, 175455, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+There is a key at 10
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+dense13
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+range_search
+Please insert begin key and end key
+--- Begin key: 
+150000
+--- End key: 
+150030
+
+--- Range Search in Dense B+Tree of order 13 ---
+--- keys: 150000, 150030
+[114429, 125411, 138237, 151327, 163862, 163862, 176643, 0, 0, 0, 0, 0, 0]
+Location: 3
+[138237, 140038, 141760, 143545, 145481, 147394, 149246, 0, 0, 0, 0, 0, 0]
+Location: 13
+[149412, 149617, 149733, 149838, 149981, 150106, 150253, 150381, 150483, 150661, 150824, 150966, 151200]
+Location: 5
+[149981, 150002, 150003, 150025, 150033, 150039, 150041, 150069, 150075, 150086, 150094, 150097, 150104]
+--- Above node is a leaf ---
+-- Results ---
+[150002, 150003, 150025]
+--------------------------------------------------------------
+            Dense B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+dense24
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+range_search
+Please insert begin key and end key
+--- Begin key: 
+150000
+--- End key: 
+150030
+
+--- Range Search in Dense B+Tree of order 24 ---
+--- keys: 150000, 150030
+[105902, 111791, 117755, 123903, 129752, 132643, 135868, 141892, 148080, 154486, 160547, 163313, 166307, 172067, 175317, 178237, 184054, 189893, 195819, 0, 0, 0, 0, 0]
+Location: 9
+[148283, 148582, 148863, 149052, 149353, 149650, 149869, 150106, 150372, 150551, 150903, 151235, 151478, 151668, 151987, 152217, 152480, 152808, 153070, 153282, 153524, 153734, 153987, 154177]
+Location: 7
+[149869, 149874, 149877, 149879, 149904, 149918, 149929, 149935, 149945, 149953, 149964, 149981, 150002, 150003, 150025, 150033, 150039, 150041, 150069, 150075, 150086, 150094, 150097, 150104]
+--- Above node is a leaf ---
+-- Results ---
+[150002, 150003, 150025]
+--------------------------------------------------------------
+            Dense B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+sparse13
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+range_search
+Please insert begin key and end key
+--- Begin key: 
+150000
+--- End key: 
+150030
+
+--- Range Search in Sparse B+Tree of order 13 ---
+--- keys: 150000, 150030
+[135617, 171809, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 1
+[140269, 144661, 149418, 154177, 158824, 162907, 167495, 171809, 0, 0, 0, 0, 0]
+Location: 3
+[150039, 150551, 151327, 151858, 152480, 153176, 153672, 154177, 0, 0, 0, 0, 0]
+Location: 0
+[149489, 149643, 149691, 149773, 149825, 149877, 149953, 150039, 0, 0, 0, 0, 0]
+Location: 7
+[149953, 149964, 149981, 150002, 150003, 150025, 150033, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+-- Results ---
+[150002, 150003, 150025]
+--------------------------------------------------------------
+            Sparse B+Tree of order 13
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+sparse24
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+range_search
+Please insert begin key and end key
+--- Begin key: 
+150000
+--- End key: 
+150030
+
+--- Range Search in Sparse B+Tree of order 24 ---
+--- keys: 150000, 150030
+[119960, 140474, 161224, 181254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 2
+[142032, 143545, 145114, 146884, 148408, 150106, 151839, 153524, 155145, 156833, 158268, 159775, 161224, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 5
+[148582, 148684, 148863, 148942, 149052, 149175, 149353, 149453, 149650, 149773, 149869, 150002, 150106, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Location: 11
+[149869, 149874, 149877, 149879, 149904, 149918, 149929, 149935, 149945, 149953, 149964, 149981, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+--- Above node is a leaf ---
+[150002, 150003, 150025, 150033, 150039, 150041, 150069, 150075, 150086, 150094, 150097, 150104, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+-- Results ---
+[150002, 150003, 150025]
+--------------------------------------------------------------
+            Sparse B+Tree of order 24
+    Please type one of the options:
+        Search - Perform search operation with randomly generated key
+        Range_Search - Perform range search operation with given keys
+        Insertion - Perform insertion operations with randomly generated key
+        Deletion - Perform deletion operations with randomly generated key
+        Back - Back to Tree Selection
+
+--------------------------------------------------------------
+
+    Your choice: 
+back
+--- Going back to the Menu ---
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Dense13 - Dense B+Tree of order 13
+        Dense24 - Dense B+Tree of order 24
+        Sparse13 - Sparse B+Tree of order 13
+        Sparse24 - Sparse B+Tree of order 24
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+menu
+--- Going back to the Menu ---
+--------------------------------------------------------------
+                       Project 2
+
+    Please type one of the options:
+        Tree - B+Tree
+        Hash - Join based on Hashing
+        Exit - Close the program
+
+--------------------------------------------------------------
+
+    Your choice: 
+hash
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Experiment1 - Perform 5.1 in Join based on Hashing
+        Experiment2 - Perform 5.2 in Join based on Hashing
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+experiment1
+--- Hash tuples in Buckets ---
+--- Hashing R is finished ---
+Hash 0: 0blocks
+Hash 1: 0blocks
+Hash 2: 0blocks
+Hash 3: 1blocks
+Hash 4: 3blocks
+Hash 5: 8blocks
+Hash 6: 17blocks
+Hash 7: 26blocks
+Hash 8: 26blocks
+Hash 9: 22blocks
+Hash 10: 16blocks
+Hash 11: 7blocks
+Hash 12: 2blocks
+Hash 13: 2blocks
+--- I/O After Hashing R: 255
+--- Hashing S is finished ---
+Hash 0: 1blocks
+Hash 1: 0blocks
+Hash 2: 1blocks
+Hash 3: 3blocks
+Hash 4: 16blocks
+Hash 5: 40blocks
+Hash 6: 79blocks
+Hash 7: 116blocks
+Hash 8: 132blocks
+Hash 9: 118blocks
+Hash 10: 71blocks
+Hash 11: 39blocks
+Hash 12: 13blocks
+Hash 13: 4blocks
+--- I/O After Hashing S: 1513
+--- Finish Hashing ---
+--- Begin Natural Join ---
+--- Finish Natural Join ---
+Number of disk I/O: 3308
+Number of tuples in join: 1000
+--- Selected B values: [12230, 13551, 14935, 15278, 15989, 17519, 20563, 22036, 24479, 26725, 29156, 29774, 31590, 32660, 35023, 39629, 40729, 42300, 45011, 49541]
+------ Natural Join ------
+A: r137     B: 12230     C: s261
+A: r37     B: 13551     C: s415
+A: r476     B: 13551     C: s415
+A: r497     B: 14935     C: s583
+A: r880     B: 15278     C: s616
+A: r427     B: 15989     C: s705
+A: r349     B: 17519     C: s872
+A: r290     B: 20563     C: s1251
+A: r868     B: 22036     C: s1439
+A: r300     B: 24479     C: s1736
+A: r162     B: 26725     C: s2019
+A: r168     B: 29156     C: s2295
+A: r331     B: 29774     C: s2361
+A: r378     B: 31590     C: s2581
+A: r639     B: 32660     C: s2731
+A: r994     B: 35023     C: s3050
+A: r385     B: 39629     C: s3662
+A: r336     B: 40729     C: s3792
+A: r551     B: 42300     C: s3985
+A: r845     B: 45011     C: s4356
+A: r125     B: 49541     C: s4947
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Experiment1 - Perform 5.1 in Join based on Hashing
+        Experiment2 - Perform 5.2 in Join based on Hashing
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+experiment2
+--- Hash tuples in Buckets ---
+--- Hashing R is finished ---
+Hash 0: 0blocks
+Hash 1: 0blocks
+Hash 2: 1blocks
+Hash 3: 0blocks
+Hash 4: 3blocks
+Hash 5: 8blocks
+Hash 6: 20blocks
+Hash 7: 28blocks
+Hash 8: 38blocks
+Hash 9: 28blocks
+Hash 10: 16blocks
+Hash 11: 9blocks
+Hash 12: 3blocks
+Hash 13: 1blocks
+--- I/O After Hashing R: 305
+--- Hashing S is finished ---
+Hash 0: 1blocks
+Hash 1: 0blocks
+Hash 2: 1blocks
+Hash 3: 3blocks
+Hash 4: 16blocks
+Hash 5: 40blocks
+Hash 6: 79blocks
+Hash 7: 116blocks
+Hash 8: 132blocks
+Hash 9: 118blocks
+Hash 10: 71blocks
+Hash 11: 39blocks
+Hash 12: 13blocks
+Hash 13: 4blocks
+--- I/O After Hashing S: 1563
+--- Finish Hashing ---
+--- Begin Natural Join ---
+--- Finish Natural Join ---
+Number of disk I/O: 3647
+Number of tuples in join: 139
+------ Natural Join ------
+A: r236     B: 20993     C: s1318
+A: r795     B: 24582     C: s1748
+A: r1190     B: 20491     C: s1244
+A: r291     B: 22624     C: s1509
+A: r954     B: 22540     C: s1500
+A: r1184     B: 22624     C: s1509
+A: r1188     B: 24620     C: s1754
+A: r205     B: 24964     C: s1797
+A: r186     B: 25091     C: s1810
+A: r924     B: 25156     C: s1817
+A: r647     B: 20675     C: s1268
+A: r274     B: 20696     C: s1272
+A: r740     B: 21796     C: s1401
+A: r370     B: 22036     C: s1439
+A: r136     B: 23681     C: s1637
+A: r356     B: 24906     C: s1782
+A: r853     B: 25176     C: s1820
+A: r696     B: 26048     C: s1936
+A: r224     B: 27012     C: s2053
+A: r53     B: 27784     C: s2138
+A: r417     B: 28994     C: s2275
+A: r149     B: 29954     C: s2379
+A: r675     B: 29448     C: s2319
+A: r752     B: 29736     C: s2354
+A: r1053     B: 20689     C: s1270
+A: r974     B: 24906     C: s1782
+A: r962     B: 25176     C: s1820
+A: r1019     B: 25392     C: s1849
+A: r943     B: 26706     C: s2014
+A: r1030     B: 28192     C: s2182
+A: r436     B: 20006     C: s1192
+A: r605     B: 20229     C: s1216
+A: r188     B: 20384     C: s1233
+A: r192     B: 20635     C: s1261
+A: r473     B: 20844     C: s1296
+A: r426     B: 21304     C: s1346
+A: r459     B: 21670     C: s1387
+A: r113     B: 21893     C: s1415
+A: r343     B: 22100     C: s1452
+A: r489     B: 23204     C: s1579
+A: r302     B: 25223     C: s1827
+A: r176     B: 26932     C: s2044
+A: r379     B: 29251     C: s2301
+A: r710     B: 20017     C: s1194
+A: r782     B: 20360     C: s1231
+A: r637     B: 20679     C: s1269
+A: r912     B: 20842     C: s1295
+A: r720     B: 21176     C: s1339
+A: r852     B: 23240     C: s1585
+A: r1143     B: 23593     C: s1627
+A: r950     B: 25298     C: s1836
+A: r661     B: 26308     C: s1959
+A: r196     B: 20797     C: s1286
+A: r338     B: 21039     C: s1323
+A: r254     B: 22069     C: s1445
+A: r219     B: 22686     C: s1519
+A: r158     B: 23635     C: s1632
+A: r198     B: 25429     C: s1853
+A: r382     B: 26717     C: s2018
+A: r226     B: 27864     C: s2154
+A: r20     B: 28731     C: s2238
+A: r239     B: 29259     C: s2302
+A: r440     B: 20131     C: s1209
+A: r578     B: 20109     C: s1201
+A: r670     B: 23194     C: s1577
+A: r544     B: 23724     C: s1644
+A: r602     B: 24887     C: s1781
+A: r738     B: 25262     C: s1832
+A: r608     B: 25429     C: s1853
+A: r686     B: 25972     C: s1929
+A: r669     B: 26925     C: s2043
+A: r857     B: 28236     C: s2186
+A: r568     B: 28452     C: s2213
+A: r886     B: 28878     C: s2259
+A: r501     B: 29126     C: s2292
+A: r843     B: 29223     C: s2299
+A: r1088     B: 20386     C: s1234
+A: r971     B: 21278     C: s1344
+A: r1142     B: 21275     C: s1343
+A: r1074     B: 21598     C: s1379
+A: r893     B: 22686     C: s1519
+A: r1067     B: 22643     C: s1513
+A: r1090     B: 24090     C: s1688
+A: r1177     B: 26734     C: s2020
+A: r1172     B: 27857     C: s2151
+A: r553     B: 21978     C: s1426
+A: r44     B: 22474     C: s1491
+A: r595     B: 23466     C: s1608
+A: r277     B: 24006     C: s1675
+A: r199     B: 26445     C: s1975
+A: r455     B: 27260     C: s2079
+A: r161     B: 27307     C: s2086
+A: r464     B: 27847     C: s2150
+A: r146     B: 28485     C: s2216
+A: r418     B: 28910     C: s2266
+A: r52     B: 29902     C: s2376
+A: r1077     B: 20126     C: s1208
+A: r1139     B: 20433     C: s1239
+A: r664     B: 21977     C: s1425
+A: r815     B: 22970     C: s1547
+A: r1197     B: 22766     C: s1528
+A: r1015     B: 23770     C: s1650
+A: r800     B: 24177     C: s1696
+A: r1052     B: 24957     C: s1795
+A: r695     B: 25319     C: s1839
+A: r648     B: 27310     C: s2087
+A: r849     B: 29007     C: s2276
+A: r626     B: 29417     C: s2314
+A: r992     B: 29498     C: s2325
+A: r645     B: 29818     C: s2368
+A: r805     B: 29556     C: s2330
+A: r896     B: 29997     C: s2386
+A: r714     B: 22251     C: s1463
+A: r1038     B: 22477     C: s1492
+A: r251     B: 23159     C: s1575
+A: r1026     B: 23484     C: s1611
+A: r244     B: 24359     C: s1719
+A: r1017     B: 24521     C: s1742
+A: r983     B: 26327     C: s1961
+A: r328     B: 26863     C: s2033
+A: r323     B: 27486     C: s2106
+A: r825     B: 27486     C: s2106
+A: r449     B: 27771     C: s2135
+A: r839     B: 28378     C: s2202
+A: r124     B: 29660     C: s2344
+A: r1063     B: 21631     C: s1384
+A: r145     B: 23294     C: s1591
+A: r218     B: 24190     C: s1698
+A: r215     B: 24471     C: s1735
+A: r723     B: 25583     C: s1877
+A: r796     B: 26103     C: s1942
+A: r1072     B: 24471     C: s1735
+A: r1131     B: 24538     C: s1743
+A: r360     B: 28463     C: s2215
+A: r71     B: 29599     C: s2336
+A: r990     B: 29671     C: s2345
+A: r6     B: 22015     C: s1437
+A: r945     B: 21503     C: s1368
+A: r340     B: 24563     C: s1745
+Number of Results: 139
+--------------------------------------------------------------
+
+    Please type one of the options:
+        Experiment1 - Perform 5.1 in Join based on Hashing
+        Experiment2 - Perform 5.2 in Join based on Hashing
+        Menu - Return to the menu
+
+--------------------------------------------------------------
+
+    Your choice: 
+menu
+--- Going back to the Menu ---
+--------------------------------------------------------------
+                       Project 2
+
+    Please type one of the options:
+        Tree - B+Tree
+        Hash - Join based on Hashing
+        Exit - Close the program
+
+--------------------------------------------------------------
+
+    Your choice: 
+exit
+--- Exit program ---
+--- Thank you ---
